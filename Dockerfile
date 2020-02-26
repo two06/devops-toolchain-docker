@@ -1,6 +1,6 @@
 FROM python
 
-RUN apt update && apt upgrade && apt install build-base python-dev py-pip 
+RUN apt update && apt upgrade -y && apt install build-base python-dev py-pip -y
 
 RUN pip install --upgrade pip
 
