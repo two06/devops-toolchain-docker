@@ -6,6 +6,6 @@ RUN pip install --upgrade pip
 
 RUN pip install --user ansible
 
-pip install --user paramiko
+RUN pip install --user paramiko
 
 CMD ["bash"]
