@@ -4,8 +4,8 @@ RUN apt update && apt upgrade -y
 
 RUN pip install --upgrade pip
 
-RUN pip install --user ansible
+RUN pip install ansible
 
-RUN pip install --user paramiko
+RUN pip install paramiko
 
 CMD ["bash"]
