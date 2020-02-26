@@ -1,6 +1,6 @@
 FROM python
 
-RUN apk add --update build-base python-dev py-pip 
+RUN apt add --update build-base python-dev py-pip 
 
 RUN pip install --upgrade pip
 
